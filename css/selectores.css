@@ -6,11 +6,7 @@
 h1{
     color:blue
 }
-/*Estos son SELECTORES DESENDENTES*/
-/*Quiere decir que
-(div tiene dentro un 
-    (article que dentro 
-        tiene un (parrafo)) )*/
+
 div  p {
     font-size: 1.5rem;
     color: black;
@@ -24,7 +20,11 @@ div p a{
 .grande{
     font-size: 3rem;
 }
-
+/*Estos son SELECTORES DESENDENTES*/
+/*Quiere decir que
+(div tiene dentro un 
+    (article que dentro 
+        tiene un (parrafo)) )*/
 .main article p{
     font-size: 4rem;
     color: blue;
