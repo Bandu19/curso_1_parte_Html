@@ -1,0 +1,14 @@
+.rojo{
+    border: 1px dashed rgba(255, 0, 0, 0.74);
+}
+
+.azul{
+    border: 1px dashed rgba(0, 38, 252);
+}
+
+.verde{
+    border: 1px dashed rgb(0, 202, 0);
+}
+.morado{
+    border: 1px dashed rgb(198, 3, 247);
+}
