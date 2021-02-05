@@ -1,0 +1,27 @@
+/*Selectores Avanzados*/
+div > p{
+    font-size: 20px;
+
+}
+
+/*Selector Atributos*/
+
+input[type]{
+
+}
+
+input[type="text"]{
+
+}
+
+/*METODO HERENCIA*/
+
+body{
+    font-size: 20px;
+    color: blue;
+}
+
+article{
+    font-size: 16px;
+    color: black;
+}
