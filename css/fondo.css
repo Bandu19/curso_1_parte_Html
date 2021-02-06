@@ -1,0 +1,24 @@
+body {
+    /*
+    background-image: url(../img/fondo2.png);
+    Sirve solo para imagenes pequeñas aunque
+    su utilidad no es bastante buena
+     background-repeat: repeat-y;*/
+    background-image: url(../img/imagenfondo.jpg);
+    /*Esta condicion quiere decir que tomara toda tu imagen sin importar los pixeles*/
+    background-size: cover;
+    /*ESTE ES NUEVO*/
+    /*este efecto del fixed es muy util*/
+    background-attachment: fixed;
+    background-position: center center;
+    /*TODO LO PODEMOS RESUMIR EN UNA SOLA LINEA DE CODIGO
+    background: url(../img/fondo2.png) no-repeat fixed center center;
+    */
+}
+
+.fondo {
+    width: 600px;
+    height: 600px;
+    background: url(../img/fondo2.png) no-repeat #777777;
+    background-size: 50%;
+}
