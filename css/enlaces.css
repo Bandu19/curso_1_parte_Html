@@ -1,0 +1,30 @@
+a{
+    font-size: 2rem;
+    text-decoration:none;
+
+}
+a:hover{
+    background: #f9a03f;
+    color: #ffffff;
+}
+
+/*ENLACE SIN VISITAR*/
+
+/*NOTA NO APLICA EL EFECTO TAL VEZ POR EL NAVEGADOR*/
+a:link {
+  
+    color: red;
+
+}
+/*COMO TAL SON PARA LOS 
+HIPERVINCULOS QUE FUERON YA SELECCIONADOS
+O VISITADOS*/
+a:visited{
+    color: aqua;
+}
+
+/*ESTADO DEL ENLACE MIENTRAS SE ESTA HACIENDO CLICK*/
+a:active{
+    text-decoration: underline;
+    color: red;
+}
