@@ -1,0 +1,28 @@
+.caja {
+    width: 12.5em;
+    height: 12.5em;
+    background: teal;
+}
+/*
+ -hay 17 palabras clave que podemos utilizar:
+    aqua,black,blue,fuchsia,gray,green, lime, maroon,navy
+    olive,orange, pruple,red,silver,teal,white,yellow
+*/
+
+.caja2{
+    width: 12.5em;
+    height: 12.5em;
+    background: #0AFF3F;
+}
+
+.caja3{
+    width: 12.5em;
+    height: 12.5em;
+    background: rgb(84%,15%,24%);
+}
+
+.caja4{
+    width: 12.5em;
+    height: 12.5em;
+    background: rgba(215, 38, 61, 3);
+}

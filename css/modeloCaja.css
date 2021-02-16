@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    background:rgb(32, 226, 168);
+    color: #ffffff;
+}
+a{
+    text-decoration:none;
+}
+a:active{
+    text-decoration: underline;
+    color: #ff5825;
+}
+/*Condicion para los margin y padding  
+        
+        forma 1:
+         margin: 0px (arriba, abajo,izquierda y derecha). 
+
+        forma2: 
+         padding: 20px(arriba, abajo) 0px (izquierda y derecha)
+
+        forma3:
+         padding: 20px(arriba) 3px(derecha) 6px(abajo)  2px(izquierda) 
+
+
+        */
+body{
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+}
+.caja{
+    background: #0353a4;
+    width: 12.5em;
+    /*height:12.5em;*/
+    margin: 20px;
+    /*margin: 20px;*/
+    /*margin:0px 50px */
+
+    /*La chida:
+    margin: 20px 10px 5px 0px;*/
+
+
+   /* margin-top, margin-right, margin-bottom, margin-left, */
+   padding: 20px;
+   border: 2px solid orangered;
+
+}
+
+
+.caja2{
+    background: #ff5825;
+    width: 12.5em;
+    /*height:12.5em;*/
+    /*
+    margin: 20px 10px 5px 0px;*/
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2em;
+   
+}
+
+.caja p{
+    background: #ee59;
+}
+
+.caja3 {
+    background: rgba(14, 243, 14, 0.815);
+    width: 110px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2em;
+}
+    
