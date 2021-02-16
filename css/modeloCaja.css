@@ -2,6 +2,18 @@
     padding: 0;
     margin: 0;
 }
+
+a:hover {
+    background:rgb(32, 226, 168);
+    color: #ffffff;
+}
+a{
+    text-decoration:none;
+}
+a:active{
+    text-decoration: underline;
+    color: #ff5825;
+}
 /*Condicion para los margin y padding  
         
         forma 1:
@@ -54,3 +66,12 @@ body{
 .caja p{
     background: #ee59;
 }
+
+.caja3 {
+    background: rgba(14, 243, 14, 0.815);
+    width: 110px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2em;
+}
+    
