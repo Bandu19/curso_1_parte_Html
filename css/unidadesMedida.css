@@ -1,0 +1,33 @@
+/*VIDEO 45 UNIDADES DE MEDIDA*/
+
+/*Por defectos para un navegador el tamaño de la letra es de 16px */
+/*Este es el fon-size  padre  y  todo dependera de los demas osea sus hijos */
+body{
+    font-size: 16px  ;
+    
+}
+
+/*Para comprobar cuanto es 1.5em tienes que multiplicar la cantidad de
+pixeles que quieres tener en tu pantalla, en este caso es 30px lo entre 
+ 20px y el resultado te dara 1.5 que en este caso se representa 1.5em= 30px*/
+
+p{
+    font-size: 1.25em;
+}
+
+/*EJEMPLO*/
+.subpadre{
+    font-size: 25px;
+
+}
+/*NOTA PARA EL CASO DE LOS REM  si queremos tomar los pixeles del body
+tenemos que cambiar de "( em a rem  )"*/
+
+.hijo{
+    width: 10rem;
+    height: 15rem;
+    background: black;
+    color: white;
+}
+
+
