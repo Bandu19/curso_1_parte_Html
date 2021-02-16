@@ -1,0 +1,44 @@
+body{
+    font-family:'Times New Roman', Arial,sans-serif,Helvetica;
+}
+
+p{
+        /*VIDEO 44 TIPOGRAFRIA*/
+    text-align: justify;
+    /*Sirve para trasnformar En mayuscula 
+    a una palabra y otra en minuscula por ejemplo
+    hola que tal = Hola Que Tal*/
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+
+h1{
+    /*Font family sirve para cambiar el entorno de la letra*/
+    font-family: 'Times New Roman', Arial;
+    /*font-size el tamaño de la letra */
+    font-size: 2rem;
+    /*Font-style  sirve para cambiar el estilo de la letra*/
+    font-style: italic;
+    /*font-wright sirver para quitarle el color negro para  la letra osea 
+    el entorno original*/
+    font-weight: normal;
+    /*font-weight: bold;*/
+    color:#4281ed;
+    text-align: center;
+
+    /*Se ocupa para el subrayado "_______"*/
+    text-decoration: underline;
+
+
+    /*Convierte a todos en Mayusculas*/
+    text-transform: uppercase;
+
+    /*Convierte a todos en minusculas
+    text-transform: lowercase;
+    text-transform: capitalize;
+    */
+
+
+}
