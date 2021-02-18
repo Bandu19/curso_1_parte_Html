@@ -1,0 +1,72 @@
+/*Video 50 REPASAR POR SI LAS  DUDAS DEL POCISIONAMIENTO*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.caja{
+    width: 12.5em;
+    height: 12.5em;
+    background: #0e6ba8;
+    margin: 20px;
+    /*FLoat:left: ;    trabaja como el display:ininline-block pero
+    la diferencia es que cuando se rellena completamente hace un salto de espacio
+    en dado caso cuando las cajas toman el 100% de una fila esta le da un enter y 
+    empieza otra vez. */
+    float: right;
+}
+.posicionada{
+    background: #6695e8;
+    /*
+    position: absolute;
+   
+    left: 220px;
+                   */
+    /*top: 100px;
+    left: 220px;*/
+
+    /* Este metodo por defecto lo traen las cajas, dependiendo de su uso 
+    se modifica:
+    position: static;
+    
+    Desde su posicion  de la caja, otra caja toma su lugar de su posicion 
+    y no le importa si se encima en la caja 
+    
+                    (position: absolute;
+                    left: 220px;)   
+    
+    
+    
+    Su posicion de la caja, otra caja respeta su espacio 
+    
+                    (position: relative;
+                    left: 220px;)     
+     */
+}
+/*
+.cajapadre{
+    margin: 20px;
+    position: relative;
+    background: #2e294e;
+    width: 500px;
+    height: 500px;
+}*/
+
+.posicionada2{
+    background: #17f70f;
+    /*Este metodo lo que hace es pocisionar la caja en estatico o 
+    en pocas palabras a la hora me mover el cursor asia abajo la caja 
+    se movera  al mismo tiempo que el cursor */
+    position: fixed;
+    /*Recordatorio Left es como ir de direccion asi:
+               ----------------->>>>>>>>>>>>>>           */
+    /*left: 50%; */
+    right: 0%;
+    bottom: 0%;
+
+}

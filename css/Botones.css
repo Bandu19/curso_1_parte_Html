@@ -47,8 +47,12 @@ div{
 .extra-big{
     font-size: 20px;
     padding: 25px 30px;
+}
 
+h2 {
 
+    font-size: 20px;
+    display: inline-block;
 }
 
 .azul{ background: rgb(50, 50, 253);}
