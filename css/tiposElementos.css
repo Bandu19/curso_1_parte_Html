@@ -1,0 +1,50 @@
+body {
+    background: #f2f2f2;
+
+    font-family: Arial;
+    
+}
+h1,p,div{
+    background: #ccc;
+    padding: 10px;
+    width: 500px;
+    /*LO que hace es que todo las propiedades las convierte en una sola fila
+        ojo has un cambio en quitarlo y sabras la diferencia*/
+    display: inline-block;
+
+}
+
+h2{
+    display: inline-block;
+}
+/*Que para los enlaces (a) no se pueden ocupar 
+los padding o los margin  */
+a{
+    color:#fff;
+    background: #000;
+    display: inline-block;
+    padding: 10px;
+    height: 50px;
+
+
+
+
+
+
+   /* padding: 10px*/
+}
+
+/*  Algunos elementos "inline" , son aquellos que no toman todo el tamaño de 
+    pantalla.
+    a,span, img, b, i, small, cite, code, em,
+    strong, br, script, button, input, label, select,
+    textarea.
+*/
+
+/*  Algunos elementos "block", son aquellos que toman el 100% de 
+    la pantalla. 
+    div, article, section, header 
+    footer, aside, table, p, video,
+    ul, ol, h1, h2, h3, h4, h5, h6 
+
+*/
