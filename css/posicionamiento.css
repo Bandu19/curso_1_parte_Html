@@ -1,5 +1,5 @@
 /*Video 50 REPASAR POR SI LAS  DUDAS DEL POCISIONAMIENTO*/
-
+/* EL astedisco significa todo el archivo html */
 *{
     padding: 0;
     margin: 0;
@@ -48,6 +48,18 @@ body{
                     left: 220px;)     
      */
 }
+.btn{
+    background: #32021f;
+    color: #f2f2f2;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 2rem;
+}
+
+
 /*
 .cajapadre{
     margin: 20px;
