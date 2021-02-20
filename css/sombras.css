@@ -1,0 +1,44 @@
+/*Sombras en texto*/
+
+    /*Primer Valor Posicion horizontal de la zombra*/
+      /*Segundo Valor Posicion Vertical de la zombra*/
+       /*Tercer Valor es la zombra*/
+.texto{
+    /*
+    text-shadow: 2px 3px 0px #000;
+    */
+
+    /*EFECTO DEL HIELO*/
+    color:#fff;
+    text-shadow: 2px 0px 10px blue;
+}
+
+h2{
+    display: inline-block;
+    margin: 20px 5px;
+    padding: 10px;
+    background: #f79256;
+    border-radius: 1.5rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h2:hover{
+    opacity: 1;
+    border: 3px solid rgba(240, 109, 109, 0.5);
+}
+
+.caja{
+    width: 12.5em;
+    height: 12.5em;
+    background: #f79256;
+    box-shadow: 0  5px 10px rgba(0,0,0,.5);
+
+
+
+}
