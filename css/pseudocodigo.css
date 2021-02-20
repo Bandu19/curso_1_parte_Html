@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    background: #4357ad;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+a:hover {
+    background: #009ddc;
+    padding: 25px 35px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+h2 {
+    display: inline-block;
+}
+
+
+/*Nos permite seleccionar a los elementos activos*/
+
+a:active {
+    background: #000;
+}
+
+
+/*Son los enlaces ya visitados*/
+
+a:visited {
+    /*background: #ccc;*/
+}
+
+div {
+    width: 500px;
+}
+
+div p:hover {
+    background: #000;
+    color: #f2f2f2;
+    width: 500px;
+    padding: 20px;
+    margin: 30px 2px;
+}
+
+
+/*Nuevo*/
+
+
+/*En el div dentro de un parrafo (p)
+    mas el elemento creado hace que la primera fila de cada parrafo
+    tenga estos estilos 
+*/
+
+div p:first-line {
+    background: #3a3a3a;
+    color: #ffff;
+    font-size: 20px;
+}
+
+div p:nth-child(1) {
+    background: #009ddc;
+    padding: 10px;
+}

@@ -1,0 +1,85 @@
+div {
+    background: #226fc1;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+a {
+    color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+
+/*Border SOlido*/
+
+.caja1 {
+    border: 7px solid #000;
+    border-radius: 20px;
+}
+
+
+/*Border Punteado*/
+
+.caja2 {
+    border: 7px dotted #000;
+    border-radius: 0px 10px 30px 50px;
+}
+
+
+/*Border dashed*/
+
+.caja3 {
+    border: 7px dashed #000;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+/*Es casi improbable que ocupes esto */
+
+.caja4 {
+    /*
+    border: 7px double #000;
+    */
+    /*
+    border:7px groove #000;*/
+    /*
+    border: 7px ridge #000;*/
+    /*
+    border: 7px inset #000;*/
+    border: 8px outset #000;
+    /*
+    siempre y cuando cuando tengas cajas cuadradas*/
+    border-radius: 100%;
+}
+
+.caja5 {
+    border-radius: 100%;
+    border: 7px solid #000;
+}
+
+.caja5:hover {
+    opacity: .7;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background: #00B4D8
+}
+
+.caja6 {
+    border: 7px dotted #000;
+    border-radius: 0px 30px 0px 60px;
+}
+
+.caja6:hover {
+    opacity: .8;
+    border: 1px solid #fff;
+    border-radius: 0px 30px 0px 60px;
+    background: orangered;
+}
