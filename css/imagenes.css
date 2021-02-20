@@ -29,3 +29,27 @@ body{
     opacity: 1;
 
 }
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    background: purple;
+    color: #f2f2f2;
+    border-radius: 2rem;
+   
+}
+.a:hover{
+    opacity: .7;
+}
+
+.a2:hover{
+    border: 1px solid #fff;
+    opacity: 1;
+}
+
+.aprendido h2 {
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+    padding: 1px 5px 20px 20px;
+
+}
