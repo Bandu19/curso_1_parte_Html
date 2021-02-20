@@ -44,3 +44,20 @@ p::first-line {
     position: relative;
     left: 12.5em;
 }
+
+h2 {
+    margin: 20px 5px;
+    padding: 10px;
+    display: inline-block;
+    background: #ffbe0b;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .5);
+}
+
+h2:hover {
+    opacity: 1;
+    border: 3px solid #230bff;
+}
+
+a {
+    text-decoration: none;
+}
