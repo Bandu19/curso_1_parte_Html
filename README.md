@@ -16,6 +16,6 @@ todo los trabajos estan en el video 50.
 Finalizando curso CSS.
 
 
-!.[Minero](https://pbs.twimg.com/profile_images/1249222635231367170/Lvsqe-2M.jpg)
+![Minero](https://pbs.twimg.com/profile_images/1249222635231367170/Lvsqe-2M.jpg)
 
 > Oscar Acuña 
