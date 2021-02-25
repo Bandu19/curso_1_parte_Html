@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "AkayaTelivigala-Regular";
+    src: url(../fonts/AkayaTelivigala-Regular.ttf);
+}
+
+@font-face {
+    /*Puedes llamarlo como quieras pero es recomendable que escribas
+    tal como se llama la fuente*/
+    font-family: "xxxxxxx";
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+@keyframes colores {
+    0% {
+        color: #9eb3c2;
+    }
+    15% {
+        color: #2ECC0E;
+    }
+    25% {
+        color: #0ECC91;
+    }
+    50% {
+        color: #0E64CC;
+    }
+    75% {
+        color: #1A0ECC;
+    }
+    100% {
+        color: #9eb3c2;
+    }
+}
+
+body {
+    font-family: "AkayaTelivigala-Regular";
+}
+
+.caja a {
+    text-decoration: none;
+    border: 1px solid #e71d36;
+    padding: 5px 20px;
+    margin: 20px;
+    color: #e71d36;
+    transition: all .5s ease-in;
+}
+
+.caja a:hover {
+    border: 1px solid #1A0ECC;
+    background: #1A0ECC;
+    color: #f2f2f2;
+}
+
+.caja a:active {
+    background: #ff9e00;
+    border: 1px solid #ff9e00;
+    color: #f2f2f2
+}
+
+h1 {
+    font-weight: normal;
+    width: 18%;
+    text-align: center;
+    border: 2px solid white;
+    transition: all 1s ease;
+}
+
+h1:hover {
+    border: 2px solid #e71d36;
+    color: #e71d36;
+}
+
+p {
+    font-weight: 700;
+    animation: colores 5s ease-in infinite;
+}
