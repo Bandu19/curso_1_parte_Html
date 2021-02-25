@@ -1,0 +1,75 @@
+.caja {
+    width: 200px;
+    height: 12.5rem;
+    background: #21295c;
+    /*ESTE EFECTO ES MUY IMPORTANTE*/
+    /*transition: background 1s ease;*/
+    transition: all 1s ease;
+    /*transition-delay: 2s;*/
+}
+
+.caja:hover {
+    background: #CC0E59;
+    opacity: .7;
+    width: 400px;
+    transform: rotate(180deg);
+}
+
+p {
+    transition: all 1s ease;
+}
+
+p:hover {
+    color: #e71d36;
+    font-size: 18px;
+}
+
+
+/*Velicidad de Curva 
+    ease - inicio lento, despues rapido y termina lento 
+
+    linear - misma velicidad de inicio a fin 
+
+    ease-in - inicio lento
+
+    ease-out - final lento 
+
+    ease-in-out - inicio lento y final lento 
+
+*/
+
+.caja2 a {
+    text-decoration: none;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border: 1px solid #CC0E59;
+    color: #CC0E59;
+    transition: all 1s ease-out;
+}
+
+.caja2 a:hover {
+    background: #0ECC71;
+    color: #f2f2f2;
+    opacity: 1;
+    border: 1px solid rgba(26, 201, 128, 0.5);
+}
+
+.caja2 a:active {
+    background: #0ECC0F;
+    color: #f2f2f2;
+    opacity: 1;
+    border: 1px solid #0ECC71;
+}
+
+h1 {
+    width: 50%;
+    max-width: 44%;
+    border: 2px solid #0f83b0;
+    color: #0f83b0;
+    transition: all 1s ease;
+}
+
+h1:hover {
+    border: 2px solid #e71d36;
+    color: #e71d36;
+}
