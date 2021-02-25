@@ -17,6 +17,35 @@
         /*transform: skew(20deg, 20deg);*/
         transform: translate(200px)scale(1.5, 1.5) rotate(10deg);
     }
+    
+    .caja2 h2 {
+        display: inline-block;
+        margin: 20px 20px 0 10px;
+        padding: 10px 20px 10px 20px;
+        background: none;
+        border: 1px solid #ff9e00;
+        border-radius: 4px;
+    }
+    
+    .caja2 h2 a {
+        text-decoration: none;
+        color: #ff9e00;
+    }
+    
+    .caja2 h2:hover {
+        background: #e71d36;
+        border: 1px solid #e71d36;
+        color: #f2f2f2;
+    }
+    
+    .caja2 h2 a:hover {
+        color: #f2f2f2;
+    }
+    
+    .caja2 h2:active {
+        background: #0f83b0;
+        border: 1px solid #0f83b0;
+    }
     /*
 Cosas que podemos hacer con transform:
 -Trasladar elementos
