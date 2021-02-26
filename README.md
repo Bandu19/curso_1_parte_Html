@@ -18,4 +18,4 @@ Finalizando curso CSS.
 
 ![Minero](https://1.bp.blogspot.com/-2aQ8HS3ULmg/XozP0y4qsiI/AAAAAAAAAsk/WF_fnXeu9wAOuqF4bdn475XJTDoiKa3gwCLcBGAsYHQ/s1600/maxresdefault%2B%25283%2529.jpg)
 
-> Oscar Acuña 
+> Oscar Gustavo
