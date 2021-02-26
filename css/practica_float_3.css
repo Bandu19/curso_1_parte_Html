@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*Este elemento del box-sizing sirve para que si una caja 
+    mide mas  por ejemplo 20px el box-sizing hace que eso lo respete
+    si tiene mas dudas quitelo y sabra lo que digo*/
+    box-sizing: border-box;
+}
+
+@keyframes fondo_color {
+    0% {
+        color: #9eb3c2;
+    }
+    15% {
+        color: #2ECC0E;
+    }
+    25% {
+        color: #0ECC91;
+    }
+    50% {
+        color: #0E64CC;
+    }
+    75% {
+        color: #1A0ECC;
+    }
+    100% {
+        color: #9eb3c2;
+    }
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    max-width: 1000px;
+    background: #ccc;
+    margin: 20px auto;
+}
+
+header h2 {
+    display: inline-block;
+}
+
+header a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    font-weight: 900;
+    margin: 0 10px 7px 10px;
+    transition: all .8s ease-out;
+}
+
+header a:hover {
+    background: #CC340E;
+    border: 1px solid #CC340E;
+    color: #f2f2f2;
+}
+
+header a:active {
+    background: #0ECC91;
+    border: 2px solid #0ECC91;
+}
+
+.derecha {
+    float: right;
+}
+
+.izquierda {
+    float: right;
+}
+
+header {
+    background: #0C2D6A;
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.main {
+    background: #f2f2f2;
+    padding: 20px;
+    /*DATO NUEVO
+    width: 660px;*/
+    width: 700px;
+    float: left;
+    animation: fondo_color 2s ease infinite;
+    transition: background 0.5 ease-in;
+}
+
+.main:hover {
+    background: #CC340E;
+    font-weight: 900;
+}
+
+aside {
+    background: #ff9e00;
+    color: #f2f2f2;
+    padding: 20px;
+    /*width: 260px;*/
+    width: 300px;
+    float: left;
+    transition: all .9s ease-out;
+}
+
+aside:hover {
+    background: #CC340E;
+    color: #f2f2f2;
+    font-weight: 900;
+}
+
+footer {
+    clear: both;
+    background: #0C2D6A;
+    color: #f2f2f2;
+    padding: 20px;
+    font-weight: bolder;
+}
