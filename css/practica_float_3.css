@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*Este elemento del box-sizing sirve para que si una caja 
+    mide mas  por ejemplo 20px el box-sizing hace que eso lo respete
+    si tiene mas dudas quitelo y sabra lo que digo*/
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 1000px;
+    background: #ccc;
+    margin: 20px;
+    margin: 20px auto;
+}
+
+header {
+    background: #0C2D6A;
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.main {
+    background: #f2f2f2;
+    padding: 20px;
+    /*DATO NUEVO
+    width: 660px;*/
+    width: 700px;
+    float: left;
+}
+
+aside {
+    background: #ff9e00;
+    color: #f2f2f2;
+    padding: 20px;
+    /*width: 260px;*/
+    width: 300px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    background: #0C2D6A;
+    color: #f2f2f2;
+    padding: 20px;
+    font-weight: bolder;
+}
