@@ -5,20 +5,19 @@
 }
 
 body {
-    background: #4a465b;
+    background: #6e4b5c;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 .contenedor {
-    width: 90%;
     max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
 }
 
 header {
-    background: #05132D;
+    background: #23001E;
 }
 
 header nav {
@@ -32,27 +31,21 @@ header nav ul {
 }
 
 header nav ul li a {
+    color: #f2f2f2;
     float: left;
     text-decoration: none;
-    color: #f2f2f2;
-    font-weight: 900;
     padding: 20px;
-    transition: all .5s ease-out;
+    font-weight: 700;
+    transition: background .7s ease;
 }
 
 header nav ul li a:hover {
     background: #CC340E;
-    border: 1px solid #CC340E;
-    color: #f2f2f2;
-}
-
-header nav ul li a:active {
-    background: #0ECC91;
-    border: 1px solid #0ECC91;
+    border: .5px solid #CC340E;
 }
 
 .main {
-    width: 70%;
+    width: 700px;
     background: #f2f2f2;
     float: left;
 }
@@ -63,10 +56,11 @@ header nav ul li a:active {
 
 .main .imagen img {
     width: 100%;
+    background: no-repeat fixed center center;
     vertical-align: top;
 }
 
-.main .posts {
+.main .posts article {
     padding: 40px;
 }
 
@@ -76,15 +70,15 @@ header nav ul li a:active {
 }
 
 .main .posts article p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     line-height: 27px;
 }
 
 aside {
-    width: 30%;
-    background: #161f26;
+    width: 300px;
+    background: #05132D;
     padding: 20px;
-    color: #ffff;
+    color: #f2f2f2;
     float: left;
 }
 
@@ -94,8 +88,9 @@ aside .widget {
 
 aside .widget .titulo {
     color: #CC340E;
-    border-bottom: 1px solid #CC340E;
     margin-bottom: 10px;
+    font-weight: 900;
+    border-bottom: 1px solid #CC340E;
 }
 
 aside .widget ul {
@@ -103,56 +98,41 @@ aside .widget ul {
 }
 
 aside .widget ul li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid #424242;
     padding: 10px 0;
+    transition: all 1s ease;
+}
+
+aside .widget ul li:hover {
+    border-bottom: 1px solid #df4c27;
 }
 
 aside .widget ul li a {
     color: #f2f2f2;
     text-decoration: none;
+    font-weight: 700;
+    transition: color 1s ease;
 }
 
 aside .widget p {
     line-height: 27px;
 }
 
-footer {
-    background: #05132D;
-    color: #f2f2f2;
-    padding: 15px 0;
-    text-align: center;
-    width: 70%;
-    /*Empezar una nueva linea*/
+footer p {
+    width: 700px;
     clear: both;
-}
-
-.botones a {
-    text-decoration: none;
-    display: inline-block;
+    background: #23001E;
     color: #f2f2f2;
-    margin: 2px 12px 2px 2px;
-    padding: 10px 20px;
-    border: 1px solid #CC340E;
-    transition: all .5s ease-in;
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+    transition: background .7s ease;
 }
 
-.botones a:hover {
-    background: #CC340E;
-    font-weight: 900;
-    color: #f2f2f2;
+footer p:hover {
+    background: #05132D;
 }
 
-
-/*Queremos que este dentro de una pantalla*/
-
-@media screen and (max-width:800px) {
-    .main {
-        width: 100%;
-    }
-    aside {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
+aside .widget ul li a:hover {
+    color: #df4c27;
 }
