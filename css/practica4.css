@@ -11,6 +11,7 @@ body {
 }
 
 .contenedor {
+    width: 90%;
     max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
@@ -51,7 +52,7 @@ header nav ul li a:active {
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: #f2f2f2;
     float: left;
 }
@@ -80,7 +81,7 @@ header nav ul li a:active {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     background: #161f26;
     padding: 20px;
     color: #ffff;
@@ -120,7 +121,7 @@ footer {
     color: #f2f2f2;
     padding: 15px 0;
     text-align: center;
-    width: 700px;
+    width: 70%;
     /*Empezar una nueva linea*/
     clear: both;
 }
@@ -139,4 +140,19 @@ footer {
     background: #CC340E;
     font-weight: 900;
     color: #f2f2f2;
+}
+
+
+/*Queremos que este dentro de una pantalla*/
+
+@media screen and (max-width:800px) {
+    .main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
 }
