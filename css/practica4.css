@@ -124,3 +124,19 @@ footer {
     /*Empezar una nueva linea*/
     clear: both;
 }
+
+.botones a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f2f2f2;
+    margin: 2px 12px 2px 2px;
+    padding: 10px 20px;
+    border: 1px solid #CC340E;
+    transition: all .5s ease-in;
+}
+
+.botones a:hover {
+    background: #CC340E;
+    font-weight: 900;
+    color: #f2f2f2;
+}
