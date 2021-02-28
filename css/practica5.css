@@ -11,6 +11,7 @@ body {
 }
 
 .contenedor {
+    width: 90%;
     max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
@@ -45,7 +46,7 @@ header nav ul li a:hover {
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: #f2f2f2;
     float: left;
 }
@@ -75,7 +76,7 @@ header nav ul li a:hover {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     background: #05132D;
     padding: 20px;
     color: #f2f2f2;
@@ -118,8 +119,8 @@ aside .widget p {
     line-height: 27px;
 }
 
-footer p {
-    width: 700px;
+footer {
+    width: 70%;
     clear: both;
     background: #23001E;
     color: #f2f2f2;
@@ -135,4 +136,16 @@ footer p:hover {
 
 aside .widget ul li a:hover {
     color: #df4c27;
+}
+
+@media screen and (max-width:800px) {
+    .main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
 }

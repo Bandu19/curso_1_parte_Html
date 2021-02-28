@@ -114,7 +114,56 @@ Este estado es cuando se esta selecionando
     border-radius: 3px;
 }
 
+@keyframes colores {
+    0% {
+        background: #8338ec;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #8338ec;
+        box-shadow: 0px 0px 30px #8338ec;
+        /*Morado*/
+    }
+    15% {
+        background: #ff006e;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #ff006e;
+        box-shadow: 0px 0px 30px #ff006e;
+        /*ff006e*/
+    }
+    25% {
+        background: #d90429;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #d90429;
+        box-shadow: 0px 0px 30px #d90429;
+        /*Rojo*/
+    }
+    50% {
+        background: #f77f00;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #f77f00;
+        box-shadow: 0px 0px 30px #f77f00;
+        /*naranja*/
+    }
+    75% {
+        background: #fca311;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #fca311;
+        box-shadow: 0px 0px 30px #fca311;
+        /*amarillo */
+    }
+    100% {
+        background: #3a86ff;
+        color: #f2f2f2;
+        font-weight: 900;
+        border: 1px solid #3a86ff;
+        box-shadow: 0px 0px 30px #3a86ff;
+    }
+}
+
 .formulario input[type="submit"]:hover {
-    background: #4fb560;
-    color: #fff;
+    animation: colores 10s ease infinite;
 }
