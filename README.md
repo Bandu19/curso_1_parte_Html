@@ -15,8 +15,8 @@ todo los trabajos estan en el video 50.
 ## curso_1_parte_3_CSS
 Finalizando curso CSS.
 
+![Finzalizacion](https://github.com/Bandu19/curso_1_parte_Html/blob/main/img/finalizacion.JPG?raw=true)
 
 ![Finalizacion2](https://github.com/Bandu19/curso_1_parte_Html/blob/main/img/finalizacion2.png?raw=true)
-![Finzalizacion](https://github.com/Bandu19/curso_1_parte_Html/blob/main/img/finalizacion.JPG?raw=true)
 
 > Oscar Gustavo
