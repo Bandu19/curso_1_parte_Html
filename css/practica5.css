@@ -145,6 +145,24 @@ aside .widget ul li a:hover {
     aside {
         width: 100%;
     }
+    aside {
+        transition: background 2s ease;
+    }
+    aside:hover {
+        background: #250902;
+    }
+    aside .widget ul li {
+        transition: border-bottom 1s ease;
+    }
+    aside .widget p {
+        transition: all 1s ease;
+    }
+    aside .widget p:hover {
+        font-weight: 900;
+    }
+    aside .widget ul li:hover {
+        border-bottom: 3px solid #df4c27;
+    }
     footer {
         width: 100%;
     }
