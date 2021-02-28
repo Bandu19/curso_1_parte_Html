@@ -130,7 +130,7 @@ footer {
     transition: background .7s ease;
 }
 
-footer p:hover {
+footer:hover {
     background: #05132D;
 }
 
